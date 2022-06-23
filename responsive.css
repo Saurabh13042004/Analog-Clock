@@ -1,0 +1,85 @@
+@media only screen and (max-width: 598px) {
+    .circle {
+        border-radius: 50%;
+background: #eb9ef5;
+box-shadow:  14px 14px 83px #5e3f62,
+             -14px -14px 83px #fffdff;
+
+            width: 350px;
+            height: 350px;
+            margin: auto;
+         align-items: center;
+         justify-content: center;
+            display: flex;
+            margin-top: 10vh;
+            transition: all 0.5s ease;
+      }
+      .hand{
+        position: absolute;
+       
+     
+     margin: auto;
+     left: 0;
+     right: 20px;
+    
+     border-radius: 5px;
+     transform-origin: bottom;
+}
+.hour{
+    height: 95px;
+    width: 10px;
+ 
+    top: 130px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+ 
+.min{
+    height: 120px;
+    width: 10px;
+  
+    top: 95px;
+    background-color: #1c8150;
+}
+ 
+.sec{
+ height: 155px;
+    width: 10px;
+    top: 65px;
+    
+    background-color: #f8fc30;
+}
+
+
+.dark_mode{
+    height: 60px;
+    width: 100px;
+    margin: -8px;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    float: right;
+    display: flex;
+    align-items: center;
+    box-shadow:  5px 5px 73px #e4b9ea,
+             -5px -5px 73px #88688d;
+
+}
+
+.darkCircle{
+    border-radius: 50%;
+background: #554158;
+box-shadow:  14px 14px 83px #221a23,
+             -14px -14px 83px #88688d;
+             width: 350px;
+            height: 350px;
+            margin: auto;
+         align-items: center;
+         justify-content: center;
+            display: flex;
+            margin-top: 10vh;
+            transition: all 0.5s ease;
+}    
+
+
+}

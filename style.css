@@ -1,0 +1,93 @@
+.circle {
+    border-radius: 50%;
+background: #eb9ef5;
+box-shadow:  14px 14px 83px #5e3f62,
+         -14px -14px 83px #fffdff;
+
+        width: 500px;
+        height: 500px;
+        margin: auto;
+     align-items: center;
+     justify-content: center;
+        display: flex;
+        margin-top: 10vh;
+        transition: all 0.5s ease;
+  }
+  .hand{
+    position: absolute;
+   
+ 
+ margin: auto;
+ left: 0;
+ right: 75px;
+ border-radius: 5px;
+ transform-origin: bottom;
+}
+.hour{
+height: 150px;
+width: 10px;
+
+top: 180px;
+border-radius: 5px;
+background-color: #ffffff;
+}
+
+.min{
+height: 185px;
+width: 10px;
+
+top: 141px;
+background-color: #1c8150;
+}
+
+.sec{
+height: 225px;
+width: 10px;
+top: 97px;
+
+background-color: #f8fc30;
+}
+body{
+background-color: #bc84c4;
+transition: all 0.5s ease;
+}
+
+.dark_mode{
+height: 60px;
+width: 100px;
+margin: -8px;
+border-top-left-radius: 20px; 
+border-bottom-left-radius: 20px;
+background-color: white;
+float: right;
+display: flex;
+align-items: center;
+box-shadow:  14px 14px 83px #e4b9ea,
+         -14px -14px 83px #88688d;
+
+}
+.dark_mode img{
+height: 40px;
+width: 45px;
+margin: 10px;
+transition: all 0.5s ease;
+
+}
+.darkCircle{
+border-radius: 50%;
+background: #554158;
+box-shadow:  14px 14px 83px #221a23,
+         -14px -14px 83px #88688d;
+         width: 500px;
+        height: 500px;
+        margin: auto;
+     align-items: center;
+     justify-content: center;
+        display: flex;
+        margin-top: 10vh;
+        transition: all 0.5s ease;
+}    
+.bg{
+background: #554158;
+transition: all 1s ease;
+}
